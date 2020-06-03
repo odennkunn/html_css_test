@@ -1,0 +1,50 @@
+@import url("../common/css/reset.css");
+
+.main {
+  width: 300px;
+  height: 500px;
+  padding: 30px 30px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.txt {
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+}
+
+.orange {
+  width: 200px;
+  height: 40px;
+  border-radius: 0px;
+  border: solid 1px;
+  background-color: #FFE4B5;
+  margin-bottom: 15px;
+}
+
+.flex {
+  margin-top: 15px;
+}
+
+.memory {
+  font-size: 14px;
+}
+
+.login {
+  width: 200px;
+  height: 40px;
+  border-radius: 0px;
+  border: solid 1px;
+  background:linear-gradient(white, #87CEFA);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.forget {
+  color: black;
+  display: block;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 20px;
+}
