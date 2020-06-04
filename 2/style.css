@@ -1,0 +1,257 @@
+@charset "utf-8";
+@import url("../common/css/reset.css");
+
+body {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.inputbox {
+  margin: 30px 0px 20px;
+}
+
+.boxheader {
+  font-family: "メイリオ","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック",Arial,Helvetica,sans-serif;
+  padding: 6px 6px 6px 10px;
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: #CCC;
+  background-color: #E8E8E8;
+  font-size: 125%;
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-collapse: collapse;
+}
+
+th {
+  padding-left: 5px;
+  width: 130px;
+  background-color: #fff;
+  border-bottom: 1px solid #CCC;
+  vertical-align: middle;
+  text-align: left;
+  font-family: "メイリオ","ヒラギノ角ゴ Pro W3","ＭＳ Ｐゴシック",Arial,Helvetica,sans-serif;
+}
+
+.nessesary th {
+  background: #FFEAEA;
+}
+
+td {
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  vertical-align: middle;
+}
+
+.require {
+  background-color: #FFEAEA;
+  padding: 0 5px 0 0;
+  width: 30px;
+}
+
+.require span {
+  padding: 2px 0;
+  display: block;
+  background-color: #F30;
+  color: #FFF;
+  width: 2em;
+  font-size: 11px;
+  line-height: 1.1;
+}
+
+.data {
+  padding: 16px 15px;
+}
+
+input[type=radio], input[type=checkbox] {
+  display: none;
+}
+
+input[type=radio] + label {
+  margin-left: 10px;
+  margin-right: 0;
+  padding-top: 10px;
+  padding-left: 35px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  width: 153px;
+  min-height: 40px;
+  float: left;
+  background: url('../common/image/2_icon_radio_off.png') 10px center no-repeat #FAFAFA;
+  background-size: 20px auto;
+  box-sizing: border-box;
+}
+
+input[type=radio] + .radio_on {
+  background: url('../common/image/2_icon_radio_on.png') 10px center no-repeat #D6EDAE;
+  background-size: 20px auto;
+}
+
+.model {
+  background-color: rgb(255, 204, 204);
+  width: 300px;
+  padding: 7px;
+  border: 1px solid #ABADB3;
+  border-radius: 3px;
+}
+
+.optional {
+  background-color: #fff;
+  padding: 0 5px 0 0;
+  width: 30px;
+}
+
+.optional span {
+  padding: 2px 0;
+  display: block;
+  font-size: 11px;
+  line-height: 1.1;
+  border: solid 1px;
+}
+
+.check_wrap {
+  padding-top: 5px;
+}
+
+.check_wrap label {
+  padding-top: 3px;
+  padding-left: 25px;
+  min-height: 22px;
+  display: inline-block;
+  background: url('../common/image/2_icon_checkbox_off.png') left center no-repeat;
+}
+
+.addressarea {
+  padding-top: 5px;
+}
+
+.mark {
+  padding-right: 5px;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.number {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.number input[type=text] {
+  background-color: rgb(255, 204, 204);
+  width: 110px;
+  padding: 7px;
+  border: 1px solid #ABADB3;
+  border-radius: 3px;
+}
+
+.number a {
+  color: #0085C9;
+  text-decoration: underline;
+}
+
+.note {
+  margin-left: 23px;
+  font-size: 11px;
+  padding-top: 5px;
+}
+
+select {
+  margin-top: 5px;
+  margin-left: 22px
+}
+
+.detail {
+  display: block;
+  background-color: rgb(255, 204, 204);
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 22px;
+  padding: 7px;
+  border: 1px solid #ABADB3;
+  border-radius: 3px;
+}
+
+.build {
+  background-color: rgb(255, 204, 204);
+  margin-left: 5px;
+  width: 150px;
+  padding: 7px 0 7px 7px;
+  border: 1px solid #ABADB3;
+  border-radius: 3px;
+}
+
+input[type=radio]+label[for=item_id_05] {
+  margin-top: 8px;
+}
+
+.kanji {
+  padding-top: 5px;
+}
+
+.kanji:nth-child(2) {
+  margin-top: 10px;
+}
+
+.sei {
+  padding-top: 5px;
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+}
+
+.personname {
+  background-color: rgb(255, 204, 204);
+  margin-left: 5px;
+  margin-right: 10px;
+  width: 150px;
+  padding: 7px;
+  border: 1px solid #ABADB3;
+  border-radius: 3px;
+}
+
+.note_num {
+  font-size: 11px;
+  padding-top: 5px;
+}
+
+textarea {
+  width: 530px;
+  padding: 7px;
+  border: 1px solid #ABADB3;
+  border-radius: 3px;
+}
+
+.terms {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.terms a {
+  color: #0085C9;
+  text-decoration: underline;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.bannerimg {
+  width: 360px;
+  height: 67px;
+}
