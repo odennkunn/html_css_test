@@ -1,0 +1,228 @@
+@charset "utf-8";
+@import url("../common/css/reset.css");
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0;
+  position: relative;
+}
+
+header {
+  font-size: 20px;
+  text-shadow: 1px 2px 3px #808080;
+}
+
+section {
+  margin: 30px 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left {
+  position: relative;
+  float: left;
+}
+
+.left li:nth-child(2) {
+  margin-top: 30px;
+}
+
+.title {
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+
+.income {
+  width: 500px;
+  height: 200px;
+  outline: solid 1px #9900FF;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: normal;
+  white-space: normal;
+  vertical-align: middle;
+}
+
+tr {
+  height: 32px;
+}
+
+.income tr:nth-child(n+2) {
+  border-bottom: dotted 1px #9900FF;
+}
+
+.double {
+  border-top: double #9900FF !important;
+  border-bottom: solid 1px #9900FF !important;
+}
+
+.income th {
+  text-align: center;
+  color: white;
+}
+
+.income .purple {
+  background: #9900FF;
+}
+
+.income td {
+  border-right: solid 1px #9900FF;
+}
+
+.money {
+  text-align: right;
+  background: #FFDBC9;
+}
+
+.bank {
+  text-align: center;
+}
+
+.day {
+  text-align: right;
+}
+
+.under {
+  background: #BAD3FF;
+  border-top: double #9900FF;
+}
+
+.under:nth-child(2) {
+  text-align: right;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.balloon_position {
+  position: absolute;
+  bottom: 100px;
+  left: 165px;
+}
+
+.balloon{
+  position: relative;
+  padding: 10px;
+  font-size: 11px;
+  display: inline-block;
+  background: #fff3ad;
+  border-radius: 5px;
+}
+
+.balloon::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  right: -15px;
+  top: 20px;
+  border-left: 15px solid #fff3ad;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.mark_position {
+  position: absolute;
+  bottom: 140px;
+  left: 205px;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.mark {
+  height: 50px;
+  width: 50px;
+  background: #EEFFFF;
+  border-radius: 50%;
+  border: solid 1px;
+  position: relative;
+}
+
+.l_eye {
+  width: 10px;
+  height: 10px;
+  background: #EEFFFF;
+  border-radius: 50%;
+  border: solid 1px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.r_eye {
+  width: 10px;
+  height: 10px;
+  background: #EEFFFF;
+  border-radius: 50%;
+  border: solid 1px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.mouth {
+  width: 20px;
+  height: 10px;
+  border-radius: 20px 20px 0 0;
+  background:#EEFFFF;
+  border-top: solid 1px;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  position: absolute;
+  bottom: 8px;
+  left: 15px
+}
+
+.right {
+  float: right;
+}
+
+.income .red {
+  background-color: red;
+}
+
+.r_item {
+  background: #FFD5EC;
+}
+
+.income .r_border:nth-child(n+2) {
+  border-bottom: dotted;
+  border-width: 1px;
+  border-color: red;
+}
+
+.income .r_td {
+  border-right: solid 1px red;
+}
+
+#r_under {
+  background: #FFD5EC;
+  border-top: double red;
+}
+
+.right li:nth-child(2) {
+  margin-top: 30px;
+}
+
+.menu {
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.links a {
+  color: #0066c0;
+  text-decoration: underline;
+  pointer-events: none;
+}
